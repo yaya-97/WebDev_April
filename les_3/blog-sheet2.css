@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.titel{
+    height:200px;
+    width: 100%;
+    margin-top: 0; 
+ 
+    background-color: plum;
+    color:rgb(90, 7, 90);
+
+
+    text-align: center;
+    line-height: 200px;
+}
+
+
+
+aside{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
