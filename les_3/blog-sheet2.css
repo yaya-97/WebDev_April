@@ -1,13 +1,16 @@
-body{
+html,body{
+    
+    height: 100%;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 .titel{
     height:200px;
     width: 100%;
-    margin-top: 0; 
+    margin-top: -27px; 
  
     background-color: plum;
     color:rgb(90, 7, 90);
@@ -18,10 +21,40 @@ body{
 }
 
 
-
 aside{
     float: left;
     height: 200px;
     width: 200px;
+    margin-top: 0px; 
+
+    margin-bottom: 0;
 }
 
+nav{
+
+margin-top: -17px;
+background-color: royalblue;
+width: 200px;
+height: 100%;
+}
+
+main{
+    background-color: aqua;
+    width: 60%;
+    float: right;
+
+}
+
+article{
+font-size: small;
+}
+
+
+h1{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.content{
+    height: 100%;
+}
