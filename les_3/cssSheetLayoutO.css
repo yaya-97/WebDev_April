@@ -1,45 +1,79 @@
-.header{
-    color: orangered;
-    padding:10px;
-    width: 100%;
-    font-size: 24px;
-    background-color: papayawhip;
-    height: 160px;
-}
-
-.logo{
-
-
-}
-
-.postTitel{
-    color:#464f41;
-}
-
-
-.basicSection{
-    background-color: #a3d2ca;
+html,body{
     
-
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-.nietDeSidebar{
-
-    padding-left: 200px;
-    padding-top: 1px;
-
-}
-
-.sidebar{
-    background-color: plum;
-
-    height:fit-content; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 0px;
+.titel{
+    height:200px;
+    width: 100%;
+    margin-top: -27px; 
  
+    background-color: plum;
+    color:rgb(90, 7, 90);
+
+
+    text-align: center;
+    line-height: 200px;
+}
+
+
+aside{
+    float: left;
+    height: 200px;
+    width: 13%;
+    margin-top: 0px; 
+
+    margin-bottom: 0;
+}
+
+nav {
+    margin-top: 0px;
+    background-color: royalblue;
+    width: 13%;
+    height: 200%;
+    float: left;
+}
+
+.articleimg{
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    width: 90%;
+
+}
+
+.thumbnail{
+    float: left;
+    width: 24%;
+}
+
+main {
+    background-color: rgb(180, 245, 245);
+    width: 87%;
+    float: right;
+}
+
+article{
+    font-size: small;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(213, 236, 241); */
+}
+
+h1{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.content{
+    height: 100%;
+}
+
+.artxt{
+padding-top: 1%;
 }
