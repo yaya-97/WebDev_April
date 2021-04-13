@@ -24,31 +24,46 @@ html,body{
 aside{
     float: left;
     height: 200px;
-    width: 200px;
+    width: 13%;
     margin-top: 0px; 
 
     margin-bottom: 0;
 }
 
-nav{
-
-margin-top: -17px;
-background-color: royalblue;
-width: 200px;
-height: 100%;
+nav {
+    margin-top: 0px;
+    background-color: royalblue;
+    width: 13%;
+    height: 200%;
+    float: left;
 }
 
-main{
-    background-color: aqua;
-    width: 60%;
-    float: right;
+.articleimg{
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    width: 90%;
 
+}
+
+.thumbnail{
+    float: left;
+    width: 24%;
+}
+
+main {
+    background-color: rgb(180, 245, 245);
+    width: 87%;
+    float: right;
 }
 
 article{
-font-size: small;
+    font-size: small;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(213, 236, 241); */
 }
-
 
 h1{
     font-size: smaller;
@@ -57,4 +72,8 @@ h1{
 
 .content{
     height: 100%;
+}
+
+.artxt{
+padding-top: 1%;
 }
