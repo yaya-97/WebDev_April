@@ -1,5 +1,5 @@
 html{
-    background-color: bisque;
+    background-color:#ad9d9d;
 }
 
 body{
@@ -15,7 +15,7 @@ height: 15%;
 left: 0px;
 top: 0px;
 
-background: #BB6BD9;
+background: #8675a9;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 0px 0px 20px 20px;
 }
@@ -27,7 +27,7 @@ height: 76px;
 left: 0px;
 top: 15%;
 margin: 1%;
-background: #A41515;
+background: #c3aed6;
 border-radius: 50px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -44,7 +44,7 @@ aside{
     left: 0px;
     top: 20%;
 
-    background: #C4C4C4;
+    background: #ffd5cd;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 39px;
 }
@@ -81,7 +81,7 @@ margin-right: 0%;
 top: 0%;
 bottom: 0%;
 
-background: #ec1212;
+background: #efbbcf;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 }
@@ -100,7 +100,7 @@ left: 0%;
 top: 7px;
 
 /* Purple 2 */
-background: #BB6BD9;
+background: #8675a9;
 /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 border-radius: 0px 0px 20px 20px;
 transform: rotate(-180deg);
