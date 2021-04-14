@@ -1,0 +1,53 @@
+html{
+    background-color: bisque;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+
+position: absolute;
+width: 100%;
+height: 15%;
+left: 0px;
+top: 0px;
+
+background: #BB6BD9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 20px 20px;
+}
+
+.wrapper{
+    height: 100%;
+}
+
+aside{
+    position: static;
+width: 210px;
+height: 883px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 39px;
+}
+
+
+footer{
+    /* position: absolute; */
+    position:relative;
+width: 100%;
+height: 129px;
+left: 0%;
+top: 1%;
+
+/* Purple 2 */
+background: #BB6BD9;
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+border-radius: 0px 0px 20px 20px;
+transform: rotate(-180deg);
+}
