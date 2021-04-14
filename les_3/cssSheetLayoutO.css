@@ -1,6 +1,15 @@
-html,body{
-    
+html{
     height: 100%;
+}
+
+
+
+body{
+    
+
+margin-bottom: 15%;
+
+    height: 80%;
     padding: 0;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,7 +43,7 @@ nav {
     margin-top: 0px;
     background-color: royalblue;
     width: 13%;
-    height: 200%;
+    height: 250%;
     float: left;
 }
 
@@ -56,6 +65,7 @@ main {
     background-color: rgb(180, 245, 245);
     width: 87%;
     float: right;
+    margin-bottom: 8%;
 }
 
 article{
@@ -76,4 +86,14 @@ h1{
 
 .artxt{
 padding-top: 1%;
+}
+
+footer{
+    background-color: black;
+    color: chartreuse;
+position:fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+
 }
