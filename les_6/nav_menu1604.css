@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
+
+header {
+  background-color: aqua;
+  color: black;
+  position: relative;
+}
+
+nav {
+  list-style: none;
+  background-color: coral;
+  border-radius: 50px;
+
+  margin: 1% 2%;
+  height: 40px;
+}
+
+nav ul {
+  text-align: center;
+  padding-top: 1%;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding-right: 19%;
+  padding-top: 30%;
+  padding-bottom: 0%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+}
+
+a:hover {
+  color: cornsilk;
+}
+
+.txtblock {
+  background-color: rgb(247, 239, 239);
+  float: left;
+
+  border: solid;
+  border-width: 15px;
+  
+
+  border-image: url(./bgs/pdred.jpg) 11 11 round;
+
+  width: 5%;
+  margin: 6%;
+  height: 15%px;
+  width: 780px;
+
+  background-position: center right;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: scroll;
+
+  text-align: center;
+}
