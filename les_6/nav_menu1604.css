@@ -4,7 +4,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 /* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
-
+body{
+    align-items: center;
+}
 header {
   background-color: aqua;
   color: black;
@@ -24,6 +26,7 @@ nav ul {
   text-align: center;
   padding-top: 1%;
   list-style: none;
+  align-items: center;
 }
 
 nav li {
@@ -43,25 +46,53 @@ a:hover {
   color: cornsilk;
 }
 
+a:visited{
+    color: grey;
+}
+
 .txtblock {
   background-color: rgb(247, 239, 239);
   float: left;
 
-  border: solid;
+  border-style: solid;
   border-width: 15px;
-  
-
   border-image: url(./bgs/pdred.jpg) 11 11 round;
 
-  width: 5%;
   margin: 6%;
-  height: 15%px;
+  height: 15%;
   width: 780px;
 
   background-position: center right;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+
+
+.txtblk2{
+    background-color: rgb(247, 239, 239);
+  float: right;
+
+  border-style: solid;
+  border-width: 15px;
+  border-image: url(./bgs/pdred.jpg) 11 11 round;
+
+  margin: 6%;
+  height: 250px;
+  width: 780px;
+
+  background-position: center right;
+  padding-left: 20px;
+  padding-top: 20px;
   overflow: scroll;
 
   text-align: center;
 }
+
+button{
+    float: inline-end;
+}
+
