@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+
+
+/* Normaal gezien is de padding hier 20px in de oefening, maar het klopt bij mij niet */
+.color{
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .color {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .color {
+        width: 100%;
+      }
+
+  }
+
+  /* Dit deel van de oefening begrijp ik niet: */
+  .palette:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
