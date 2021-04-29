@@ -1,49 +1,56 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
 
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 39px !important ;
+  color: #13b2ab !important ;
+  font-family: "Capriola", sans-serif !important;
+}
 
-  }
-  /* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
+.whiteout {
+  background-color: blueviolet;
+  height: 5%;
+  width: 70%;
+}
 
-  .navbar-brand{
-    margin-left: 10px;
-    font-size:39px  !important ;
-    color:#13b2ab  !important ;
-    font-family:'Capriola', sans-serif !important;
+.navbar-nav mr-auto {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
 
-  }
-
-  .whiteout{
-    background-color: blueviolet;
-    height: 5%;
-    width: 70%;
-  }
-
-
-.navbar-nav mr-auto{
-    display:flex !important;
-    justify-content: flex-end !important;
-   
-  }
-
-.vlag{
+.vlag {
   bottom: 5px !important;
 }
 
-#navbarDropdown{
+#navbarDropdown {
   padding-top: 0.4rem !important;
 }
 
-textarea{
+textarea {
   float: right !important;
- width: 100% !important;
+  width: 100% !important;
 }
 
-.modal-content{
+.modal-content {
   color: #13b2ab !important;
   background-color: whitesmoke !important;
- 
+}
+
+.carousel {
+  max-height: 500px !important;
+  overflow: hidden !important;
+}
+
+.carousel-caption {
+  position: absolute !important;
+  text-align: left !important;
+  color: whitesmoke !important;
+  z-index: 20 !important;
+ bottom: 25% !important;
 }
 
