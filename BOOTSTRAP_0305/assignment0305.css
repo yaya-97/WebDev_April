@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+  /* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
+
+  .navbar-brand{
+    margin-left: 10px;
+    font-size:39px  !important ;
+    color:#13b2ab  !important ;
+    font-family:'Capriola', sans-serif !important;
+
+  }
+
+  .whiteout{
+    background-color: blueviolet;
+    height: 5%;
+    width: 70%;
+  }
+
+
+.navbar-nav mr-auto{
+    display:flex !important;
+    justify-content: flex-end !important;
+   
+  }
+
+.vlag{
+  bottom: 5px !important;
+}
+
+#navbarDropdown{
+  padding-top: 0.4rem !important;
+}
+
+textarea{
+  float: right !important;
+ width: 100% !important;
+}
+
+.modal-content{
+  color: #13b2ab !important;
+  background-color: whitesmoke !important;
+ 
+}
+
