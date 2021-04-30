@@ -1,15 +1,23 @@
+/* Important to know:
+h3's soul is cursed, select carefully to prevent hell
+(see footer titles in yellow */
+
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /* font-weight: 500; */
+
 }
 /* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
 
 .navbar-brand {
   margin-left: 10px;
   font-size: 39px !important ;
-  color: #13b2ab !important ;
-  font-family: "Capriola", sans-serif !important;
+  color: #1a5eaa !important ;
+  font-family: "Raleway",sans-serif !important;
+  font-weight: 800;
 }
 
 .whiteout {
@@ -44,13 +52,281 @@ textarea {
 .carousel {
   max-height: 500px !important;
   overflow: hidden !important;
+  display: block !important;
 }
 
+/* all carousel txt below */
+#slide1 > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+  color: whitesmoke;
+  padding-top: 15%;
+}
+
+#slide2 > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+  color: whitesmoke;
+  padding-top: 15%;
+}
+
+#slide3 > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+  color: whitesmoke;
+  padding-top: 15%;
+}
+
+
+
+/* End of all carousel txt */
 .carousel-caption {
   position: absolute !important;
   text-align: left !important;
   color: whitesmoke !important;
   z-index: 20 !important;
  bottom: 25% !important;
+ font-size: 20px;
+
 }
 
+.display-4{
+  font-family: 'Fredoka One', cursive !important;
+}
+
+/* What I found on stackoverflow
+@media (min-width: 600px) {
+  .carousel-caption{
+    margin-bottom: 1.25rem !important;
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+  } */
+
+.nav-pills > .nav-item{
+  padding-top: 0px !important;
+  padding-left: 1% !important;
+
+}
+
+.nav-pills > .nav-item > .nav-link.active{
+  background-color: #297dc1;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.navbar2{
+  display: flex;
+  padding-top: 0% !important;
+  align-items: flex-start !important;
+}
+.navbar2 > ul{
+  flex-grow: 2 !important;
+}
+
+.navbar2 > .searchbarnav{
+  flex-grow: 2 !important;
+margin-top: 5px;
+}
+
+.navbar2 > .searchbarnav > .form-inline > input.form-control{
+  width: 87% !important;
+}
+
+/* Begin titel fcards */
+
+.FCtitle{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.FCtitle > .display-4{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* begin cardflights */
+
+.card-deck{
+ justify-content: center !important;
+ margin-left: 5% !important;
+ margin-right: 5% !important;
+margin-bottom: 5% !important;
+
+}
+
+
+div.card{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.infoW{
+  color:black;
+  font-weight:700;
+}
+
+
+
+
+.card-img-overlay > .card-title{
+  text-align:left;
+  margin-top: 43%;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.bookbutton{
+  float: right;
+}
+
+
+html.sr body div.card-deck div.card div.infoW ul.list-group li.list-group-item img{
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.card-body{
+  font-size: 1.5rem;
+}
+
+/* begin carousel */
+
+.carousel-inner{
+  max-height: 500px !important;
+}
+
+
+
+.top {
+  font-family: 'Comfortaa', cursive;
+}
+#myCarousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+#slide1{
+  background-image: url(./carousel/slide1.png);
+  background-size: cover;
+  color: whitesmoke;
+  height: 500px;
+}
+
+#slide2{
+  background-image: url(./carousel/slide2.png);
+  background-size: cover;
+  color: whitesmoke;
+  height: 500px;
+
+}
+
+#slide3{
+  background-image: url(./carousel/slide3.png);
+  background-size: cover;
+  color: whitesmoke;
+  height: 500px;
+
+}
+
+/* New Carousel */
+
+#myCarousel{
+  margin:0%;
+  padding: 0%;
+}
+
+.carousel-inner{
+  height: 500px;
+overflow: visible;
+}
+
+.carousel-item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.title {
+  font-family: 'Comfortaa', cursive;
+}
+.title a {
+  color: darkorange;
+  transition: all .2s;
+}
+.title a a:hover {
+  text-decoration: none;
+  color: orange;
+}
+@media (min-width: 768px) {
+  #quote-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+ }
+}
+
+footer {
+
+background: #297dc1;
+height: 300px;
+color: whitesmoke;
+
+text-decoration:none;
+list-style: none;
+
+overflow: hidden;
+}
+
+.footerwrap{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content:space-between;
+
+  position: absolute;
+  padding: 0%;
+width: 100%;
+  padding-top: 4%;
+padding-bottom: 0%;
+padding-left: 15.5%;
+padding-right: 15.5%;
+
+line-height: 0.75rem;
+}
+
+
+.blockfoot{
+  margin-top: 25px;
+  color: whitesmoke !important;
+
+}
+
+
+h3{
+  color: #f2f2c4;
+  font-weight: 700 !important;
+}
+
+
+
+}
+
+.Company{
+  height: 100%;
+  width: 21%;
+  padding: 0%;
+}
+
+.Resources{
+  height: 100%;
+  width: 21%;
+  /* padding-left: 3%;
+  padding-right: 0%; */
+}
+
+.GDPR{
+  height: 100%;
+  width: 21%;
+  /* padding-left: 3%;
+  padding-right: 0%; */
+}
+.endco{
+  height: 45px;;
+  background-color: #1a5eaa;
+  position: sticky;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 0.75rem;
+}
