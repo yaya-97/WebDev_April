@@ -103,3 +103,81 @@ margin-top: 5px;
   width: 87% !important;
 }
 
+
+
+
+/* footer stuff */
+
+footer {
+
+  background: #297dc1;
+  height: 300px;
+  color: whitesmoke;
+  
+  text-decoration:none;
+  list-style: none;
+  
+  overflow: hidden;
+  }
+  
+  .footerwrap{
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-between;
+  
+    position: absolute;
+    padding: 0%;
+  width: 100%;
+    padding-top: 4%;
+  padding-bottom: 0%;
+  padding-left: 15.5%;
+  padding-right: 15.5%;
+  
+  line-height: 0.75rem;
+  }
+  
+  
+  .blockfoot{
+    margin-top: 25px;
+    color: whitesmoke !important;
+  
+  }
+  
+  
+  h3{
+    color: #f2f2c4;
+    font-weight: 700 !important;
+  }
+  
+  
+  
+  }
+  
+  .Company{
+    height: 100%;
+    width: 21%;
+    padding: 0%;
+  }
+  
+  .Resources{
+    height: 100%;
+    width: 21%;
+    /* padding-left: 3%;
+    padding-right: 0%; */
+  }
+  
+  .GDPR{
+    height: 100%;
+    width: 21%;
+    /* padding-left: 3%;
+    padding-right: 0%; */
+  }
+  .endco{
+    height: 45px;;
+    background-color: #1a5eaa;
+    position: sticky;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0.75rem;
+  }
