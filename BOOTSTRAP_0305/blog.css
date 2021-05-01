@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  }
+  /* ^This resets any automatic margin or padding in the entire document to be zero, like a clean slate. It's called a reset. */
+
+  .navbar-brand{
+    margin-left: 10px;
+    font-size:40px  !important ;
+    color:#1a5eaa   !important ;
+    font-family:'Capriola', sans-serif !important;
+    font-family: "Raleway",sans-serif !important;
+    font-weight: 800;
+  }
+
+  .whiteout{
+    background-color: blueviolet;
+    height: 5%;
+    width: 70%;
+  }
+
+
+.navbar-nav mr-auto{
+    display:flex !important;
+    justify-content: flex-end !important;
+   
+  }
+
+.vlag{
+  bottom: 5px !important;
+}
+
+#navbarDropdown{
+  padding-top: 0.4rem !important;
+}
+
+textarea{
+  float: right !important;
+ width: 100% !important;
+}
+
+.modal-content{
+  color: #13b2ab !important;
+  background-color: whitesmoke !important;
+}
+
+.jumbotron {
+    background-image:url(./blogjumbo/jumBG2.png);
+    background-size:cover;
+margin-bottom: 0% !important;
+    color: whitesmoke;
+  }
+
+    /* nav2 #pill menu bar */
+  
+.nav-pills > .nav-item{
+  padding-top: 0px !important;
+  padding-left: 1% !important;
+
+}
+
+.nav-pills > .nav-item > .nav-link.active{
+  background-color: #297dc1;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.navbar{
+  padding-top: 0% !important;
+}
+.navbar > ul{
+  flex-grow: 2 !important;
+}
+
+/* Navbar2 stuff */
+.nav-pills > .nav-item{
+  padding-top: 0px !important;
+  padding-left: 1% !important;
+
+}
+
+.nav-pills > .nav-item > .nav-link.active{
+  background-color: #297dc1;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.navbar2{
+  display: flex;
+  padding-top: 0% !important;
+  align-items: flex-start !important;
+}
+.navbar2 > ul{
+  flex-grow: 2 !important;
+}
+
+.navbar2 > .searchbarnav{
+  flex-grow: 2 !important;
+margin-top: 5px;
+}
+
+.navbar2 > .searchbarnav > .form-inline > input.form-control{
+  width: 87% !important;
+}
+
+/* Begin FAQ */
+
+.faq_P{
+  padding: 1rem;
+
+}
+
+.FAQ{
+padding-top: 0%;
+padding-bottom: 2rem;
+padding-right: 2rem;
+padding-left: 2rem;
+
+
+
+}
+
+#headingOne > h5:nth-child(1) > button:nth-child(1){
+  color: #1a5eaa;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#headingTwo > h5:nth-child(1) > button:nth-child(1){
+  color: #1a5eaa;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+#headingThree > h5:nth-child(1) > button:nth-child(1){
+  color: #1a5eaa;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+#headingFour > h5:nth-child(1) > button:nth-child(1){
+  color: #1a5eaa;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+
+/* footer stuff */
+
+footer {
+
+  background: #297dc1;
+  height: 300px;
+  color: whitesmoke;
+  
+  text-decoration:none;
+  list-style: none;
+  
+  overflow: hidden;
+  }
+  
+  .footerwrap{
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-between;
+  
+    position: absolute;
+    padding: 0%;
+  width: 100%;
+    padding-top: 4%;
+  padding-bottom: 0%;
+  padding-left: 15.5%;
+  padding-right: 15.5%;
+  
+  line-height: 0.75rem;
+  }
+  
+  
+  .blockfoot{
+    margin-top: 25px;
+    color: whitesmoke !important;
+  
+  }
+  
+  
+  h3{
+    color: #f2f2c4;
+    font-weight: 700 !important;
+  }
+  
+  
+  
+  
+  
+  .Company{
+    height: 100%;
+    width: 21%;
+    padding: 0%;
+  }
+  
+  .Resources{
+    height: 100%;
+    width: 21%;
+    /* padding-left: 3%;
+    padding-right: 0%; */
+  }
+  
+  .GDPR{
+    height: 100%;
+    width: 21%;
+    /* padding-left: 3%;
+    padding-right: 0%; */
+  }
+  .endco{
+    height: 45px;;
+    background-color: #1a5eaa;
+    position: sticky;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0.75rem;
+  }
