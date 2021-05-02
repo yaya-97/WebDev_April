@@ -49,9 +49,18 @@ textarea{
 .jumbotron {
     background-image:url(./blogjumbo/jumBG2.png);
     background-size:cover;
-margin-bottom: 0% !important;
+    margin-bottom: 0% !important;
     color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
   }
+
+  .jumbotron > h1:nth-child(1){
+    padding-top: 4rem;
+
+  }
+
 
     /* nav2 #pill menu bar */
   
@@ -103,51 +112,23 @@ margin-top: 5px;
   width: 87% !important;
 }
 
-/* Begin FAQ */
+/* Blog */
 
 .faq_P{
-  padding: 1rem;
-
-}
-
-.FAQ{
-padding-top: 0%;
-padding-bottom: 2rem;
-padding-right: 2rem;
-padding-left: 2rem;
-
-
-
-}
-
-#headingOne > h5:nth-child(1) > button:nth-child(1){
-  color: #1a5eaa;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-#headingTwo > h5:nth-child(1) > button:nth-child(1){
-  color: #1a5eaa;
-  font-weight: 600;
-  text-decoration: none;
-
-}
-
-#headingThree > h5:nth-child(1) > button:nth-child(1){
-  color: #1a5eaa;
-  font-weight: 600;
-  text-decoration: none;
-
-}
-
-#headingFour > h5:nth-child(1) > button:nth-child(1){
-  color: #1a5eaa;
-  font-weight: 600;
-  text-decoration: none;
-
+  padding-top: 4rem;
 }
 
 
+
+.TN{
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+}
+
+.pagination{
+  justify-content: center;
+}
 /* footer stuff */
 
 footer {
