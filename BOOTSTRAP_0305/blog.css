@@ -118,6 +118,10 @@ margin-top: 5px;
   padding-top: 4rem;
 }
 
+.col-md-2{
+  overflow: hidden;
+}
+
 
 
 .TN{
@@ -125,6 +129,16 @@ margin-top: 5px;
   padding-right: 10%;
   overflow: hidden;
 }
+
+
+
+.card-title{
+text-decoration: none !important;
+color: black !important;
+font-weight: 600 !important;
+}
+
+
 
 .pagination{
   justify-content: center;
