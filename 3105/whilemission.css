@@ -1,6 +1,6 @@
 body{
-text-align: center;
-padding-left: 3rem;
-color: crimson;
-font-size: large;
+text-align: center !important;
+padding-left: 3rem !important;
+color: crimson !important;
+font-size: large !important;
 }
