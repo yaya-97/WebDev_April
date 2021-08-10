@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaya-97/WebDev_April.git"
+  },
+  "author": "Yasmine Tay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaya-97/WebDev_April/issues"
+  },
+  "homepage": "https://github.com/yaya-97/WebDev_April#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
